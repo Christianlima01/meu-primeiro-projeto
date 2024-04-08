@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+box-sizing: border-box;
+height: 100vh;
+background-color: black;
+color: white;
+}
+strong{
+    color: rgb(194, 153, 233);
+}
+.titulo-destaque{
+    color: red;
+}
+.titulo-lang{
+    color: blueviolet;
+}
+.apresentacao{
+margin: 15%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.apresentacao_conteudo{
+    width: 615px;
+}
+.apresentacao_conteudo_titulo{
+    font-size: 36px;
+    font-family: "Comic Sans MS";
+}
+.apresentacao_conteudo_titulo_texto{
+    font-size: 24px;
+    font-family: "Comic Sans MS";
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.linkss{
+    background-color: rgb(2, 0, 142);
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Comic Sans MS";
+}
